@@ -6,12 +6,12 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/jjbernals/config-server-account
+          uri: https://github.com/jjbernals/config-server.git
           clone-on-start: true
-          default-label: main
+          default-label: master
 
   application:
-    name: server-client-film
+    name: server-client-account
 
   profiles:
     active: dev, aws
